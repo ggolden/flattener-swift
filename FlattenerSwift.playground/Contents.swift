@@ -89,6 +89,11 @@ class FlattenerTests: XCTestCase
 		sample = [[1,[[2]],[3]],4]
 		flattened = flatten(sample)
 		XCTAssertTrue(isEqualArray(Int.self, flattened, target)!, "\(sample) -> \(flattened)")
+
+		target = [1,2,3,4,5,6]
+		sample = [[1,[[2,3]],[4,5]],6]
+		flattened = flatten(sample)
+		XCTAssertTrue(isEqualArray(Int.self, flattened, target)!, "\(sample) -> \(flattened)")
 	}
 	
 	// helper for the test, to compare two arrays of any single type

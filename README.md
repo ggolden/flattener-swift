@@ -5,11 +5,11 @@ Inspired by the [Nutshell Developer Take Home Project](https://github.com/nutshe
 
 This sample shows how to create an array of values that is the flattened version of an array that may contain values mixed with arrays of the same type.  For example:
 
-`[[1,[[2]],[3]],4]`
+`[[1,[[2,3]],[4,5]],6]`
 
 ### To Run
 
-This code is a Swift playground.  I made it for Mac, to avoid needing to run an IOS emulator.
+This code is a Swift Playground.  I made it for Mac, to avoid needing to run an IOS emulator.
 
 Download it on a Mac with XCode, and when you open it, it will run the tests.
 
